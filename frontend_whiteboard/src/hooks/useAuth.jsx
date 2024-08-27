@@ -2,9 +2,9 @@ import { useState, useEffect, useRef } from "react";
 import Keycloak from "keycloak-js";
 
 const client = new Keycloak({
-  url: "http://127.0.0.1:5000/",
-  realm: "",
-  clientId: "",
+  url: "http://127.0.0.1:8080/",
+  realm: "myrealm",
+  clientId: "myclient",
 });
 
 const useAuth = () => {
