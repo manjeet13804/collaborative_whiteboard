@@ -5,7 +5,7 @@ import ClientRoom from "./ClientRoom";
 import JoinCreateRoom from "./JoinCreateRoom";
 import Room from "./Room";
 import Sidebar from "./Sidebar";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./style.css";
 
 const server = "http://localhost:5000/";
